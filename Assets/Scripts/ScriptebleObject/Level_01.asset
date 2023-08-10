@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22fff296bc774944bbf34a89cbaea90, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: 
+  chunkPrefabs:
+  - {fileID: 8150186337200829916, guid: 92bdb7c6b7c43f741a3f9ba089cbbe60, type: 3}
+  - {fileID: 4936370725287220433, guid: 9f9f8dfb23dc5e14fbaaf9de133f923c, type: 3}
+  - {fileID: 4936370725287220433, guid: 9f9f8dfb23dc5e14fbaaf9de133f923c, type: 3}
+  - {fileID: -19475548009021584, guid: ca131c7b56c2f9642ad7821a301a958e, type: 3}
+  - {fileID: 1678491285279271966, guid: 4a6938adf79403b4b866dea6a68687ab, type: 3}
+  - {fileID: 4936370725287220433, guid: 9f9f8dfb23dc5e14fbaaf9de133f923c, type: 3}
+  - {fileID: 1678491285279271966, guid: 4a6938adf79403b4b866dea6a68687ab, type: 3}
+  - {fileID: 4936370725287220433, guid: 9f9f8dfb23dc5e14fbaaf9de133f923c, type: 3}
+  - {fileID: 8150186337200829916, guid: 92bdb7c6b7c43f741a3f9ba089cbbe60, type: 3}
+  - {fileID: 4936370725287220433, guid: 9f9f8dfb23dc5e14fbaaf9de133f923c, type: 3}
+  - {fileID: 948532626548086937, guid: 7d82b45ee33038b46ab7686963c43641, type: 3}
+  - {fileID: 4936370725287220433, guid: 9f9f8dfb23dc5e14fbaaf9de133f923c, type: 3}
+  - {fileID: 4936370725287220433, guid: 9f9f8dfb23dc5e14fbaaf9de133f923c, type: 3}
+  - {fileID: -19475548009021584, guid: ca131c7b56c2f9642ad7821a301a958e, type: 3}
+  - {fileID: 1678491285279271966, guid: 4a6938adf79403b4b866dea6a68687ab, type: 3}
+  - {fileID: 3367801065962038243, guid: bd6e6d423a8390f4cb4bbc030510d824, type: 3}
+  - {fileID: 7784286258062717439, guid: cb681e7b1321e5f4690c472358d901e3, type: 3}
+  - {fileID: 1678491285279271966, guid: 4a6938adf79403b4b866dea6a68687ab, type: 3}
+  - {fileID: -19475548009021584, guid: ca131c7b56c2f9642ad7821a301a958e, type: 3}
+  - {fileID: 5683849934580560515, guid: 7be1e0866d0603748a9534c4c546e59c, type: 3}
+  - {fileID: 5683849934580560515, guid: 7be1e0866d0603748a9534c4c546e59c, type: 3}
+  firstChunk: {fileID: 3421080686966919624, guid: 876a9ad32b0b0df4eb092ccf34aa6880,
+    type: 3}
+  endingChunk: {fileID: 2384659067491077950, guid: 9c9fc9b20cffa614f92b151a004b46c3,
+    type: 3}
+  turningCross: 0200000000000000

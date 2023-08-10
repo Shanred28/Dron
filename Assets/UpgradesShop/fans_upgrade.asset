@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043bf63b6b40f614491674438fd51152, type: 3}
+  m_Name: fans_upgrade
+  m_EditorClassIdentifier: 
+  m_Type: 0
+  m_Levels:
+  - Level: 1
+    Value: 5
+  - Level: 2
+    Value: 3
+  - Level: 3
+    Value: 2
+  m_UpgradeName: "\u041B\u043E\u043F\u0430\u0441\u0442\u0438"
+  m_Description: "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u0435 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u0438"
+  m_Part: 0
+  m_UpgradeIcon: {fileID: 21300000, guid: 8be1234e9c1bfe145879f56a581ceefe, type: 3}
+  m_CurrentLevel: 0
+  m_RootLevel: {fileID: 0}
+  m_IsAvailable: 0
+  m_Cost:
+  - Level: 0
+    Cost: 100
+    LevelCounter: 0
+  - Level: 0
+    Cost: 300
+    LevelCounter: 0
+  - Level: 0
+    Cost: 500
+    LevelCounter: 0

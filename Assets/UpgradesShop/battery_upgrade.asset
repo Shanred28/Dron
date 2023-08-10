@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043bf63b6b40f614491674438fd51152, type: 3}
+  m_Name: battery_upgrade
+  m_EditorClassIdentifier: 
+  m_Type: 0
+  m_Levels:
+  - Level: 1
+    Value: 10
+  - Level: 2
+    Value: 5
+  - Level: 3
+    Value: 5
+  m_UpgradeName: "\u0410\u043A\u043A\u0443\u043C\u0443\u043B\u044F\u0442\u043E\u0440"
+  m_Description: "\u0423\u0432\u0435\u043B\u0438\u0447\u0435\u043D\u0438\u0435 \u044D\u043D\u0435\u0440\u0433\u0438\u0438"
+  m_Part: 2
+  m_UpgradeIcon: {fileID: 21300000, guid: 9a749019aceda0248b8fb5645d31f507, type: 3}
+  m_CurrentLevel: 0
+  m_RootLevel: {fileID: 0}
+  m_IsAvailable: 0
+  m_Cost:
+  - Level: 0
+    Cost: 300
+    LevelCounter: 0
+  - Level: 0
+    Cost: 500
+    LevelCounter: 0
+  - Level: 0
+    Cost: 1000
+    LevelCounter: 0
