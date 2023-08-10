@@ -17,15 +17,17 @@ namespace Hacaton
 
         private void Start () 
         {
-            transform.parent.SetParent(null);
-            _rigidbody = GetComponent<Rigidbody>();
             
+            _rigidbody = GetComponent<Rigidbody>();
+            if(transform.parent != null)
+                transform.parent.SetParent(null);
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (_chankLast != other.transform.root.GetComponent<Chunk>() && other.transform.root.TryGetComponent<Chunk>(out var chunk) )
             {
+                
                 chunk?.AddList(this);
 
                 if(_chankLast!= null)
