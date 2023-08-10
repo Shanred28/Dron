@@ -27,7 +27,7 @@ namespace Hacaton
 
         private List<Vehicles> _vehiclesAnChanks;
 
-        private void Start()
+        private void Awake()
         {
             _vehiclesAnChanks = new List<Vehicles>();
         }

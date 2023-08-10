@@ -17,6 +17,7 @@ namespace Hacaton
 
         private void Start () 
         {
+            transform.parent.SetParent(null);
             _rigidbody = GetComponent<Rigidbody>();
             
         }
@@ -25,7 +26,7 @@ namespace Hacaton
         {
             if (_chankLast != other.transform.root.GetComponent<Chunk>() && other.transform.root.TryGetComponent<Chunk>(out var chunk) )
             {
-                chunk.AddList(this);
+                chunk?.AddList(this);
 
                 if(_chankLast!= null)
                     _chankLast.RemoveList(this);
